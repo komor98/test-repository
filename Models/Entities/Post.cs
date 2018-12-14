@@ -12,5 +12,6 @@ namespace TestGit1.Models.Entities
         public string Text { get; set; }
         public int User_id { get; set; }
 
+        public User User { get; set; }
     }
 }
